@@ -1,0 +1,54 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@rmw/coffee-loader': ^0.0.4
+  '@rmw/md-include': ^0.4.8
+  coffeescript: ^2.7.0
+
+devDependencies:
+  '@rmw/coffee-loader': 0.0.4
+  '@rmw/md-include': 0.4.8
+  coffeescript: 2.7.0
+
+packages:
+
+  /@rmw/coffee-loader/0.0.4:
+    resolution: {integrity: sha512-V93ZHbqvjpmgeVrBNJ13H2M17pekdqib1LL1Xdpv5tcaCWq5K/ycJVSS8jViO2IruzSbbIcyb6MzEwpGOlcjng==}
+    dependencies:
+      '@rmw/source-map-support': 0.5.24
+      coffeescript: 2.7.0
+    dev: true
+
+  /@rmw/md-include/0.4.8:
+    resolution: {integrity: sha512-wH8/fS9HgF3QFJOLTbkUl2w98wLh64VZvAlVjBkZ7ymZO3vzSKbjP0aW9ksZ+mPwvwzgdf0YbBgZakzuTnp9tw==}
+    hasBin: true
+    dependencies:
+      q: 1.5.1
+    dev: true
+
+  /@rmw/source-map-support/0.5.24:
+    resolution: {integrity: sha512-Ghp4qffy81X1A1Y4EQ1cw0HgRCPsXUlTnj7rZr9dDPeXacJ4iCbGZbyyLjFAUalhpCEYuF1cwXKVR/W3NGSPsQ==}
+    dependencies:
+      buffer-from: 1.1.2
+      source-map: 0.6.1
+    dev: true
+
+  /buffer-from/1.1.2:
+    resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
+    dev: true
+
+  /coffeescript/2.7.0:
+    resolution: {integrity: sha512-hzWp6TUE2d/jCcN67LrW1eh5b/rSDKQK6oD6VMLlggYVUUFexgTH9z3dNYihzX4RMhze5FTUsUmOXViJKFQR/A==}
+    engines: {node: '>=6'}
+    hasBin: true
+    dev: true
+
+  /q/1.5.1:
+    resolution: {integrity: sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=}
+    engines: {node: '>=0.6.0', teleport: '>=0.2.0'}
+    dev: true
+
+  /source-map/0.6.1:
+    resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
+    engines: {node: '>=0.10.0'}
+    dev: true

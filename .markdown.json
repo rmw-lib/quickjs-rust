@@ -1,0 +1,5 @@
+{
+  "build": "readme/zh-cn.md",
+  "files": ["./make.md"],
+  "tableOfContents": {}
+}

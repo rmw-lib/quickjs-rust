@@ -1,0 +1,6 @@
+quickjs
+.obj
+node_modules/
+*.log
+target/
+__pycache__/

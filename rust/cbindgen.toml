@@ -1,0 +1,9 @@
+language = "C"
+namespace = "ffi"
+include_guard = "CBINDGEN_BINDING_RUST_H"
+
+[parse.expand]
+crates = ["rust"]
+all_features = false
+default_features = true
+features = []

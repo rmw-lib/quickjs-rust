@@ -1,0 +1,15 @@
+export from rust : fib,sleep
+begin sleep 2s
+sleep done
+fib(3) = 6
+try catch example :
+❌ miss : args need 1 pass 0
+    at fib (native)
+    at try_run (test.js:8)
+    at <anonymous> (test.js:27)
+
+❌ not number : args position 0
+    at fib (native)
+    at try_run (test.js:6)
+    at <anonymous> (test.js:28)
+

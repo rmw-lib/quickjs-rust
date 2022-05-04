@@ -1,0 +1,12 @@
+{
+  "author": "gcxfd <i@rmw.link>",
+  "type": "module",
+  "scripts": {
+    "prepare": "npx md-include .markdown.json"
+  },
+  "devDependencies": {
+    "@rmw/coffee-loader": "^0.0.4",
+    "@rmw/md-include": "^0.4.8",
+    "coffeescript": "^2.7.0"
+  }
+}
